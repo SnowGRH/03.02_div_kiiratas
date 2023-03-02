@@ -45,8 +45,7 @@ function init() {
 
 function megjelenit(list) {
     const body = document.querySelector("body");
-    console.log(list)
-  for (let i = 0; i < list.lenght; i++) {
+  for (let i = 0; i < list.length; i++) {
     const div = document.createElement("div");
     const cim = document.createElement("h2");
     const tag = document.createElement("p");
@@ -55,7 +54,7 @@ function megjelenit(list) {
     tag.appendChild(text);
     cim.appendChild(cimek);
     div.appendChild(tag);
-    div.appendChild(cim);s
+    div.appendChild(cim);
     body.appendChild(div);
   }
 }
